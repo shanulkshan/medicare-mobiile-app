@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddToCart"
+    android:background="@drawable/main7">
+
+    <TextView
+        android:id="@+id/idPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Rs 850/="
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/idQuantity"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@+id/idQuantity"
+        app:layout_constraintTop_toBottomOf="@+id/idQuantity" />
+
+    <TextView
+        android:id="@+id/expiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Expiry Date - 2024.12.05"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/idManufactureDate"
+        app:layout_constraintTop_toBottomOf="@+id/idManufactureDate" />
+
+    <TextView
+        android:id="@+id/idDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:text="Corex-D is an alcohol-free cough syrup formulated for the relief of irritating and troublesome cough. It has antitussive and antihistaminic actions. "
+        android:textColor="#415B60"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/idMedName"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idMedName" />
+
+    <TextView
+        android:id="@+id/idMedName"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Corex-D - Cough Syrups"
+        android:textAllCaps="false"
+        android:textColor="#0571A3"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/idMedImg"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="@+id/idMedImg"
+        app:layout_constraintTop_toBottomOf="@+id/idMedImg" />
+
+    <TextView
+        android:id="@+id/idMedDrug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="ID : [ med000001 ]"
+        android:textColor="#434242"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintBottom_toTopOf="@+id/idDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/idMedName"
+        app:layout_constraintTop_toBottomOf="@+id/idMedName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/idMedImg"
+        android:layout_width="188dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idPharmacyName"
+        app:srcCompat="@drawable/corex_d" />
+
+    <ImageView
+        android:id="@+id/idPharmacyLogo"
+        android:layout_width="71dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idPharmacyName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/idPharmacyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/healthCareProviderName"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toEndOf="@+id/idBackArrow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/idBackArrow"
+        android:layout_width="66dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/idManufactureDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Manufactured date - 2022.12.05"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/idManfactureName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/idManfactureName"
+        app:layout_constraintTop_toBottomOf="@+id/idManfactureName" />
+
+    <TextView
+        android:id="@+id/idQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Quantity in stock - 200"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/expiryDate"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/expiryDate"
+        app:layout_constraintTop_toBottomOf="@+id/expiryDate" />
+
+    <TextView
+        android:id="@+id/idManfactureName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Manufacture By - Hemas Pharmaceuticals "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/idDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/idDescription"
+        app:layout_constraintTop_toBottomOf="@+id/idDescription" />
+
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="@dimen/ViewDrugEditBtnWidth"
+        android:layout_height="@dimen/ViewDrugEditBtnHeight"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/DarkBlue"
+        android:gravity="center"
+        android:text="ADD TO CART"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idPrice" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "147752803155",
+    "firebase_url": "https://medicare-2d2a8-default-rtdb.firebaseio.com",
+    "project_id": "medicare-2d2a8",
+    "storage_bucket": "medicare-2d2a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147752803155:android:20ba6e908ab856ce619fa6",
+        "android_client_info": {
+          "package_name": "com.example.practiceformadproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147752803155-9psnphsp6nhuvvged22581c0s1og2l9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6lyT3S_F3e9MFSNBDMk6kpd-PyE-vFU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147752803155-9psnphsp6nhuvvged22581c0s1og2l9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

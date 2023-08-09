@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="User_type_color1">#FD6700</color>
+    <color name="User_type_color2">#E77B35</color>
+    <color name="signup_button_s">#039BE5</color>
+    <color name="signup_button_e">#094449</color>
+    <color name="Login_light">#f6fbff</color>
+    <color name="login_txt_border">#03A9F4</color>
+    <color name="login_txt_background">#f6fbff</color>
+
+
+
+
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bottom_nav_selected_item">#FFFFFF</color>
+    <color name="bottom_nav_item">#FAF9F9</color>
+    <color name="bottom_nav_background">#F1FBFB</color>
+    <color name="fragment_bg_color">#048ED1</color>
+    <color name="dark_primary_color">#1976D2</color>
+    <color name="light_primary_color">#BBDEFB</color>
+    <color name="primary_color">#2196F3</color>
+    <color name="text_icons">#FFFFFF</color>
+    <color name="accent_color">#00BCD4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="divider_color">#BDBDBD</color>
+    <color name="DarkBlue">#0D23B1</color>
+    <color name="medBlue">#00C8E9</color>
+
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="card_view_loging_height">0dp</dimen>
+    <dimen name="Uname_field_height">60dp</dimen>
+    <dimen name="login_pw_height">60dp</dimen>
+    <dimen name="login_sign_in_height">60dp</dimen>
+    <dimen name="login_signin_width">0dp</dimen>
+    <dimen name="logo_width">270dp</dimen>
+    <dimen name="logo_height">221dp</dimen>
+    <dimen name="Uname_txtsize">20sp</dimen>
+    <dimen name="Full_name_height">0dp</dimen>
+    <dimen name="full_name_txt">18sp</dimen>
+    <dimen name="password_txt_size">18sp</dimen>
+    <dimen name="profilr_view_height">1dp</dimen>
+    <dimen name="mobile_txt_size">18sp</dimen>
+    <dimen name="address_txt_size">18sp</dimen>
+    <dimen name="edit_button_txt_size">18sp</dimen>
+    <dimen name="delete_button_txt_size">18sp</dimen>
+    <dimen name="cus_checkbox_height">48dp</dimen>
+    <dimen name="enter_pw_height">48dp</dimen>
+    <dimen name="enter_pw_width">0dp</dimen>
+    <dimen name="post_add_cus_width">0dp</dimen>
+    <dimen name="post_add_height">48dp</dimen>
+    <dimen name="phar_signup_width">159dp</dimen>
+    <dimen name="phar_signup_height">52dp</dimen>
+    <dimen name="phar_head_txt_size">34sp</dimen>
+    <dimen name="licence_height">48dp</dimen>
+    <dimen name="phar_post_width">0dp</dimen>
+    <dimen name="phar_post_height">48dp</dimen>
+
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="SearchBarWidth">0dp</dimen>
+    <dimen name="SearchBarHeight">50dp</dimen>
+    <dimen name="DrugNameTextSize">20sp</dimen>
+    <dimen name="EditDrugTextSize">35sp</dimen>
+    <dimen name="SubTitleTextSize">18sp</dimen>
+    <dimen name="PharmacyProviderUserProfileWidth">84dp</dimen>
+    <dimen name="PharmacyProviderProfileHeight">76dp</dimen>
+    <dimen name="EditBtnWidth">142dp</dimen>
+    <dimen name="EditBtnHeight">50dp</dimen>
+    <dimen name="ViewDrugEditBtnWidth">150dp</dimen>
+    <dimen name="ViewDrugEditBtnHeight">50dp</dimen>
+    <dimen name="DeleteBtnWidth">150dp</dimen>
+    <dimen name="DeleteBtnHeight">50dp</dimen>
+    <dimen name="AddANewDrugTextSize">35sp</dimen>
+    <dimen name="AddBtnWidth">175dp</dimen>
+    <dimen name="AddBtnHeight">50dp</dimen>
+    <dimen name="ViewPageDrugImgWidth">133dp</dimen>
+    <dimen name="ViewPageDrugImgHeight">77dp</dimen>
+    <dimen name="BackIconWidth">42dp</dimen>
+    <dimen name="BackIconHeight">34dp</dimen>
+</resources>
